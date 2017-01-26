@@ -1747,6 +1747,7 @@
 		.image img {
 			display: block;
 			width: 100%;
+			border-radius: 50%;
 		}
 
 		.image.fit {
@@ -1759,7 +1760,6 @@
 			width: 25%;
 			margin: 0 auto;
 		}
-		
 
 		.image.left {
 			float: left;
@@ -2115,7 +2115,7 @@
 
 	#header {
 		position: relative;
-		background-image: url("../images/header.jpg");
+		background-image: url("../images/banner-coffee-code.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2184,6 +2184,7 @@
 		#header footer {
 			margin: 1em 0 0 0;
 		}
+	
 
 	body.homepage #header {
 		height: 100vh;
@@ -2381,7 +2382,7 @@
 		margin-bottom: 0;
 	}
 
-/* Main */
+/* 	 */
 
 	#main {
 		margin-bottom: 0;
@@ -2734,6 +2735,10 @@
 				width: 60px;
 				height: 60px;
 			}
+			#image-self{
+				border-radius: 50%;
+			}
+			
 
 			.image.left {
 				margin: 0 1em 1em 0;
